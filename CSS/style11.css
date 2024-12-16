@@ -1,0 +1,131 @@
+/* first  */
+/* div{
+    height: 200px;
+    width: 200px;
+    background-color: #4dff00ff;
+}
+#opacity{
+    background-color: #ffa511;
+    /* opacity 0 kaene par nahi dikhae dega heading 1,2  */
+    /* opacity: 1; 
+} */
+/* second */
+ /* div{
+    height: 200px;
+    width: 200px;
+    background-color: #4dff00ff;
+    transition-duration: 1s;
+    transition-delay: 1s;
+} 
+div:hover{
+    background-color: black;
+    border-radius: 50%;
+} */
+
+/* third */
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: #4dff00ff;
+    margin: 0 auto;
+    margin-top: 10px;
+    transition: margin-top 2s case-in-out 0.2s;
+}
+div:hover{
+    margin-top: 400px;
+    background-color: pink;
+} */
+
+/* fourth css transform*/
+/* section{
+    margin-top: 100px;
+}
+div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: green;
+    border: 2px solid black;
+    margin: 10px;
+}
+div:nth-of-type(2n){
+    background-color: #f7db6a;
+}
+div:nth-of-type(3m){
+    background-color: #f7db6a;
+}
+/* transform */
+/* #one{
+    transform: rotate(180deg);
+}
+#two{
+    transform: scale(0.5);
+}
+#three{
+    transform: translateX(-100px);
+}
+#four{
+    transform: skew(30deg);
+}
+#five{
+    transform: rotate(30deg) translateX(150px);
+}  */
+
+/* fifth  */
+/* div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: green;
+    margin: 10px auto;
+    box-shadow: 2px 2px 10px yellow;
+} */
+
+/* sixth */
+/* div{width: 250px;
+    height: 150px;
+    background-color: green;
+    margin: 10px auto;
+    background-image: url(car.jpg); */
+    /* background-size: contain; */
+    /* background-size: cover; */
+    /* background-size: auto; */
+
+/* } */
+
+/* seven position  */
+div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    border: 3px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+#static{
+    background-color: yellow;
+    position: static;
+    top: 100px;
+    left: 100px;
+}
+
+#relative{
+    background-color: yellow;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+#absolute{
+    background-color: yellow;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+#fixed{
+    background-color: yellow;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}

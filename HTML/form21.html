@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice level 3</title>
+</head>
+<body>
+    <!-- Recreate the following table using HTML  -->
+    <table border="5">
+        <caption>Student Information</caption>
+            <tr>
+                <th rowspan="6">Info</th>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Address</th>
+            </tr>
+            <tr>
+                <th>City</th>
+                <th>House</th>
+            </tr>
+
+            <tr>
+                <td>A</td>
+                <td>Delhi</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td>Mumbai</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td>Kolkata</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td>pune</td>
+                <td>4</td>
+            </tr>
+
+    </table>
+    <hr>
+    <!-- Recreate the following form using HTML  -->
+    <form action="/server">
+        <div>
+            name
+            <input type="test" id="name">
+        </div>
+        <div>
+            sex:
+            <input type="radio" name="male" id="male">
+            <label for="male">male</label>
+            <input type="radio" name="female" id="female">
+            <label for="female">female</label>
+        </div>
+        <div>
+            country:
+            <select name="country" id="country">
+                <option>select an option</option>
+                <option value="india">india</option>
+                <option value="chaena">chaena</option>
+                <option value="american">american</option>
+            </select>
+        </div>
+        <div>
+            
+            <label for="feedback">message:</label>
+            <br>
+            <textarea id="feedback"></textarea>
+        </div>
+        <div>
+            <input type="checkbox" name="age" id="age">
+            <label for="age">Subscribe?</label>
+        </div>
+        <button>submit</button>
+    </form>
+    <hr>
+    <!-- Recreate the following form using HTML -->
+    <form action="/server">
+        <h1>Feedback Form</h1>
+        <div>
+            <label for="Name">Name</label>
+            <input type="text" placeholder="write your name" id="name">
+        <br /><br />
+            <label for="Email">Email</label>
+            <input type="text" placeholder="write your email" id="Email">
+        </div>
+        <br />
+        <div>
+            
+            <label for="message">message:</label>
+            <br>
+            <textarea name="meggase" id="message"></textarea>
+        </div>
+        <br />
+        <div>
+            <label for="rating">Rate us our of 5:</label> 
+            <br>
+            <input type="radio" name="rate" id="rate" value="1">
+            <label for="rate">1</label>
+            <br>
+            <input type="radio" name="rate" id="rate" value="2">
+            <label for="rate">2</label>
+            <br>
+            <input type="radio" name="rate" id="rate" value="3">
+            <label for="rate">3</label>
+            <br>
+            <input type="radio" name="rate" id="rate" value="4">
+            <label for="rate">4</label>
+            <br>
+            <input type="radio" name="rate" id="rate" value="5">
+            <label for="rate">5</label>
+        </div> 
+        <br /> 
+        <button>send your message!</button>
+
+    </form>
+</body>
+</html>

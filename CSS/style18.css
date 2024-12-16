@@ -1,0 +1,36 @@
+h1{
+    height: 50px;
+    width: 850px;
+    border: 2px solid black;
+    background-color: yellow;
+    color: blue;
+}
+@media(width:400px){
+   h1{
+    
+    background-color: red;
+   }
+}
+@media(min-width:600px){
+    h1{
+     
+     background-color: pink;
+    }
+ }
+ @media(max-width:100px){
+    h1{
+     
+     background-color: blue;
+    }
+ }
+ @media(min-width:200px)and(max-width:300px){
+    h1{
+     
+     background-color: purple;
+    }
+ }
+ @media(orientation:landscape){
+    h1{
+        background-color: blueviolet;
+    }
+ }

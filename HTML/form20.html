@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkbox,redio buttom,dropdown,rang,text area</title>
+</head>
+<body>
+    <form action="/server">
+        <!-- checkbox  -->
+        <div>
+            <input type="checkbox" name="age" id="age">
+            <label for="age">I am 18+</label>
+        </div>
+        <!-- redio  -->
+        <div>
+            <input type="radio" name="fruit" id="apple"/>
+            <label for="apple">apple</label>
+            <input type="radio" name="fruit" id="orange" />
+            <label for="orange">orange</label>
+            <input type="radio" name="fruit" id="mango" />
+            <label for="mango">mango</label>
+        </div>
+        <div>
+            choose your subject
+            <input type="checkbox" name="sub" id="math" value="math"/>
+            <label for="math">math</label>
+            <input type="checkbox" name="sub" id="sci" value="sci"/>
+            <label for="science">science</label>
+            <input type="checkbox" name="sub" id="Eng" value="Eng"/>
+            <label for="english"> english</label>
+        </div>
+        <div>
+            choose your profession
+            <select name="profession" id="profession">
+                <option>select your option</option>
+                <option value="student">student</option>
+                <option value="developer">developer</option>
+            </select>
+        </div>
+        <div>
+            <label for="volume">select your volume</label>
+            <input type="range" id="vol" min="0" max="100" name="vol">
+        </div>
+        <div>
+            <label for="feedback">pleasen provide your valuable feedback :</label>
+            <textarea id="feedback" placeholder="feedback"></textarea>
+        </div>
+        <button>submit</button>
+    </form>
+    
+    <hr>
+    <!-- pratice Q 9  -->
+    <form action="/server">
+        <h1>Registration Form</h1>
+        <div>
+            <input type="text" placeholder="first" name="fname">
+            <input type="text" placeholder="last" name="lname">
+        </div>
+        <div>
+            please select gender
+            <select name="gender" id="gender">
+                <option>select gender</option>
+                <option value="male">male</option>
+                <option value="female">female</option>
+            </select>
+        </div>
+        <div>
+            Do you agree to all terms of server?
+            <input type="checkbox" name="tose agree" id="tose agree">
+            <label for="agree">yes, I agree</label>
+        </div>
+        <button>Register</button>
+
+
+    </form>
+</body>
+</html>

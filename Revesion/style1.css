@@ -1,0 +1,136 @@
+* {
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+    color: cornflowerblue;
+    font-family: Georgia;
+}
+
+#outer {
+    height: 400px;
+    width: 300px;
+    border: 2px solid white;
+    /* text-align: center; */
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.account{
+    text-align: center;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.easy{
+    text-align: center;
+    background-color: white;
+    font-size: x-small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.name{
+    height: 20px;
+    width: 130px;
+    display: inline-block;
+    margin-left: 8px;
+    border-radius: 4px;
+    border: 1px solid black;
+    /* border-width:medium; */
+    background-color: white;
+}
+.number{
+    width: 280px;
+    margin-left: 8px;
+    border-radius: 4px;
+    margin-top: 6px;
+    background-color: white;
+    border: 1px solid black;
+}
+.password{
+    width: 280px;
+    margin-left: 8px;
+    border-radius: 4px;
+    margin-top: 6px;
+    background-color: white;
+    border: 1px solid black;
+}
+#date{
+    background-color: white;
+    font-size:small;
+    margin-left: 5px;
+    
+}
+/* .date{
+    height: 20px;
+    width: 83px;
+    background-color: white;
+    border-radius: 4px;
+    margin-left: 5px;
+    margin-top: 4px;
+    border: 1px solid black;
+} */
+.day{
+    height: 20px;
+    width: 83px;
+    background-color: white;
+    border-radius: 4px;
+    margin-left: 5px;
+    margin-top: 4px;
+    border: 1px solid black;
+   
+}
+.month{
+    height: 20px;
+    width: 83px;
+    background-color: white;
+    border-radius: 4px;
+    margin-left: 5px;
+    margin-top: 4px;
+    border: 1px solid black;
+}
+.year{
+    height: 20px;
+    width: 83px;
+    background-color: white;
+    border-radius: 4px;
+    margin-left: 5px;
+    margin-top: 4px;
+    border: 1px solid black;
+}
+#gender{
+    background-color: white;
+    font-size:small;
+    margin-left: 5px;
+}
+.gender{
+    height: 20px;
+    width: 83px;
+    background-color: white;
+    border-radius: 4px;
+    margin-left: 5px;
+    margin-top: 4px;
+    border: 1px solid black;
+}
+
+p{
+    font-size: x-small;
+    background-color: white;
+}
+a{
+    background-color: white;
+}
+button{
+    width: 130px;
+    margin-left: 84px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+}
+.last{
+    text-align: center;
+    color:blue;
+    font-size: 80%;
+}

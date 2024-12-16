@@ -1,0 +1,42 @@
+h1{
+   font-family: 'Courier New', Courier, monospace;
+   color: #ffa511;
+   text-align: center;
+   font-size: 55px;
+   font-weight: 900;
+   letter-spacing: 2px;
+   line-height: 1.5;
+   text-decoration: double underline rgb(0, 183, 255);
+   text-transform: uppercase;
+
+}
+p{
+    color: #964B00;
+    line-height: 30px;
+    text-align: center;
+   
+}
+h2{
+    text-align: center;
+    color: red;
+    font-family: Georgia;
+}
+h3{
+    text-align: center;
+    color: black;
+}
+
+a{
+    color: rgb(18, 239, 18);
+    text-decoration: none;
+}
+button{
+    background-color: white;
+    color: blueviolet;
+}
+textarea{
+    color: black;
+}
+span{
+    text-decoration: underline;
+}

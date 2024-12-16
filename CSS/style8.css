@@ -1,0 +1,41 @@
+* {
+    text-align: center;
+    background-color: aquamarine;
+}
+
+h1 {
+    
+    height: 70px;
+    background-color: yellow;
+    /* border-width: 10px;
+    border-style: dashed;
+    border-color: blue; */
+    border: 2px solid blue;
+    border-radius: 50px;
+   padding-top: 30px;
+}
+ div {
+    height: 200px;
+    width: 400px;
+    background-color: pink;
+    /* border-width: 10px;
+    border-style: dashed;
+    border-color: black; */
+    border: 2px solid black;
+    /* border-bottom: dashed; */
+    border-radius: 50px;
+    padding: 50px;
+    margin: 50px;
+    margin-left: 700px;
+    /* display: inline-block; */
+     color: red;
+     font-size: larger;
+ }  
+ button{
+    height: 50px;
+    width: 200px;
+    background-color: green;
+    border-radius: 25px;
+    color: red;
+    font-size: xx-large ;
+ }

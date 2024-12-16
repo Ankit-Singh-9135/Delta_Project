@@ -1,0 +1,106 @@
+h1{
+    text-align: center;  
+    text-transform: uppercase;
+    text-decoration: double underline;
+}
+h1::first-letter{
+    color: blueviolet;
+}
+
+
+.box{
+    height: 300px;
+    width: 500px;
+    background-color: pink;
+    border-radius: 20px;
+
+    animation-name: colAnimate;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;  
+    text-align: center;
+    margin: 0 auto;
+
+}
+.nextbox{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(0, 234, 255);
+    border-radius: 20px;
+    position: relative;
+    animation-name: ankit1;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-direction: normal;
+}
+@keyframes ankit1{
+0%{
+    top: 0px;
+   left: 0px;
+
+}
+25%{
+    top: 180px;
+    left:0px;
+}
+75%{
+    top: 180px;
+    left: 300px;
+}
+100%{
+    top: 0px;
+    left: 300px;
+}
+}
+
+
+@keyframes widthAnimate{
+    from{
+        width: 10px;
+        background-color: green;
+    }
+    to{
+        width: 400px;
+        background-color: blue;
+        border-radius: 15px;
+        
+    }
+}
+@keyframes colAnimate{
+    0%{
+        
+        background-color: green;
+    }
+    50%{
+       
+        background-color: blue;  
+    }
+    80%{
+        background-color:yellow;
+    }
+    100%{
+        background-color: brown;
+    }
+}
+@keyframes fontAnimation{
+    from{
+        font-size: 20px;
+    }
+    to{
+        font-size: 40px;
+    }
+}
+
+@keyframes colorAnimate{
+    from{
+        background-color: green;
+    }
+    to{
+        background-color: brown;
+    }
+}
+

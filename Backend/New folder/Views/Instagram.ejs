@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <h2>This page blong to @<%= username %></h2> -->
+    <h2>This page blong to @<%= data.name %>
+    </h2>
+    <button>Follow</button>
+    <button>Message</button>
+
+    <!-- <h3>Account that follow you :</h3>
+    <ul>
+        <% for(let name of Followers) {%>
+            <li><%= name %></li>
+            <% } %>
+    </ul> -->
+
+    <p>
+        Followers : <%=data,followers %> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Followings :<%= data.following%>
+
+    </p>
+    <hr />
+
+    <% for(let post of data.posts){ %>
+        <img src="<%=post.image%>" alt="some img"> 
+        
+        <p>
+            Followers : <%=post.likes %> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; comments :<%= post.comments%>
+            
+        </p>
+        <% } %>
+</body>
+
+</html>

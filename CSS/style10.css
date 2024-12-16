@@ -1,0 +1,26 @@
+/* #box{
+    height: 150px;
+    width: 300px;
+    background-color: gray;
+    border: 5px black dotted;
+    margin-top: 20px;
+    margin-right: 1em;
+    margin-bottom: 40px;
+    margin-left: 2em;
+    padding: 1em 1em 1em 1em;
+} */
+
+/* second ans  */
+/* .box{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+} */
+
+/* third ans  */
+li{
+    display: inline;
+}

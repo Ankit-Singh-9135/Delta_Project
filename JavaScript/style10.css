@@ -1,0 +1,54 @@
+/* div{
+    background-color: pink;
+    height: 200px;
+    width: 400px;
+}
+ul{
+    background-color: blue;
+}
+li{
+    background-color: greenyellow;
+} */
+/* --------------------------------------------------------  */
+body {
+    text-align: center;
+
+}
+
+.btn {
+    height: 100px;
+    width: 100px;
+    border-radius: 20%;
+    border: 5px solid black;
+    margin: 1rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.yellow {
+    background-color: #f99b45;
+}
+
+.red {
+    background-color: #d95980;
+    ;
+}
+
+.purple {
+    background: #819ff9;
+}
+
+.green {
+    background-color: #63aac0;
+}
+
+.flash {
+    background-color: white;
+}
+
+.userflash {
+    background-color: green;
+}

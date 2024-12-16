@@ -1,0 +1,74 @@
+/* body{
+    background-color: bisque;
+} */
+*{
+    font-family: 'Courier New';
+}
+
+h3{
+    color: purple;
+}
+h1{
+    color: #b92b27;
+}
+
+#login{
+    background-color: white;
+}
+
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+
+.upvote{
+    background-color: green;
+    color: azure;
+}
+/* descendant selector  */
+.post a{
+    background-color: purple;
+    color: yellow;
+}
+nav ul li a{
+    color: pink;
+}
+/* practice Q s  */
+#myId p{
+    color: green;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+button:active {
+    background-color: hotpink;
+    color: black;
+}
+
+p:active{
+    font-weight: bold;
+    color: green;
+}
+
+input[type="radio"]:checked + label{
+color: red;
+font-weight: bold ;
+}
+
+div:nth-of-type(2n){
+background-color: blanchedalmond;
+}
+h1::first-letter{
+    color: pink;
+}
+
+p::first-letter{
+    color: purple;
+}
+
+p::selection{
+    background-color: limegreen;
+}
